@@ -1,0 +1,13 @@
+langchain
+langgraph
+langchain-core
+langchain-community
+python-dotenv
+langchain-groq
+langgraph-cli[inmem]
+langchain_huggingface 
+sentence-transformers
+fastapi
+langchain-google-genai
+tavily-python
+uvicorn 

@@ -1,0 +1,37 @@
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+.envrc
+
+# Ignore possible typo variant
+.rnv
+.rnv.*
+*.rnv
+
+# OS-specific junk
+Thumbs.db
+.DS_Store
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

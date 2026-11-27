@@ -1,0 +1,29 @@
+"""Prompt templates for the Deep Research Agent."""
+
+from .scope_prompts import (
+    CLARIFY_WITH_USER_INSTRUCTIONS,
+    TRANSFORM_MESSAGES_INTO_RESEARCH_TOPIC_PROMPT,
+)
+from .research_prompts import (
+    RESEARCH_AGENT_PROMPT,
+    SUMMARIZE_WEBPAGE_PROMPT,
+    COMPRESS_RESEARCH_SYSTEM_PROMPT,
+    COMPRESS_RESEARCH_HUMAN_MESSAGE,
+)
+from .supervisor_prompts import LEAD_RESEARCHER_PROMPT
+from .report_prompts import FINAL_REPORT_GENERATION_PROMPT
+
+__all__ = [
+    # Scope prompts
+    "CLARIFY_WITH_USER_INSTRUCTIONS",
+    "TRANSFORM_MESSAGES_INTO_RESEARCH_TOPIC_PROMPT",
+    # Research prompts
+    "RESEARCH_AGENT_PROMPT",
+    "SUMMARIZE_WEBPAGE_PROMPT",
+    "COMPRESS_RESEARCH_SYSTEM_PROMPT",
+    "COMPRESS_RESEARCH_HUMAN_MESSAGE",
+    # Supervisor prompts
+    "LEAD_RESEARCHER_PROMPT",
+    # Report prompts
+    "FINAL_REPORT_GENERATION_PROMPT",
+]
